@@ -1,0 +1,17 @@
+Difference between HTTP1.1 and HTTP2
+
+HTTP1:
+1. It is created on 1997.
+2. In HTTP1.1, the responses and requests are given in the textual format.
+3. There is a TCP connection in which it is blocked because, the request and respond does not exist same time.
+In which head of line blocking will block all the other requests, it will wait until the response.
+4. The data in this is compressed by itself to speed up the performances in the website.
+5. For getting multiple pages, resource inlining is used.
+
+HTTP2:
+1. It is created on 2015.
+2. In HTTP2, the responses and requests are given as binary protocol.
+3. There is one TCP connection accessed for multiplexing. In which we can requests multiple task at same time
+and also response.
+4. The data is compressed by itself using HPACK to speed up the web performance.
+5. For getting multiple pages, PUSH frame is used by the server.
