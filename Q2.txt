@@ -1,0 +1,22 @@
+What is objects and internal representation in javascript.
+
+Objects are like containers in which it has unique attributes and behaviours.
+For example: Brush, Pen, Computer, Car, Box etc
+
+If we take Pen, It has many properties or attributes like color, brand, ink color, material, writing instrument 
+form.
+
+We can declare and define a object as 
+
+Example:
+var pen = {color: "pink", brand: "Hauser", ink-color: "Blue", material: "Plastic", writing-instrument 
+form: "Ball point pen"}
+
+In above example
+color, brand, ink color, material, writing instrument form are property name and Pink, Hauser, Blue, Plastic
+Ball point are the property value.
+
+We can access object property as
+
+Eg:
+pen.color
